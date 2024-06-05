@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(bg.jpg);
+  color: #ffff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(228, 151, 151, 0.767);
+}
+
+div,
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+a:hover {
+  color: red;
+}
+
+nav {
+  color: #ffff;
+  padding-bottom: 8px;
+}
+.navbar {
+  display: flex;
+  /* align-items: center; */
+  float: right;
+  padding: 20px;
+  margin-right: 40px;
+}
+
+.section {
+  height: 370px;
+  max-width: 900px;
+  border: 2px solid #fff;
+  margin: 50px 100px;
+  padding: 50px 150px;
+}
+
+.contact-heading {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  padding-right: 10px;
+}
+.instagram {
+  height: 100px;
+  width: 100px;
+  /* border: 2px solid red; */
+  margin: 10px;
+}
+.facebook {
+  height: 100px;
+  width: 100px;
+  /* border: 2px solid red; */
+  margin: 10px;
+  
+}
+
+.twiter {
+  height: 100px;
+  width: 100px;
+  /* border: 2px solid red; */
+  margin: 10px;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+img:hover{
+   cursor: pointer;
+}
+
+footer{
+    height: 60px;
+    padding: 23px;
+    text-align: center;
+    background-color: rgba(228, 151, 151, 0.767);
+}
