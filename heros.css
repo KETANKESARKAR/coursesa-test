@@ -1,0 +1,81 @@
+
+*{
+    margin:0;
+    padding: 0;   
+}
+body{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background: url("bg.jpg");
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffff;
+}
+/* h1{
+   margin-top: 25PX;
+    text-align: center;
+    color: black;
+} */
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(228, 151, 151, 0.767);
+    
+}
+div, a{
+    color: #ffff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+
+.heros-container{
+     display: grid;
+     grid-template-columns: 600px 600px; 
+    margin: 40px 30px;
+    /* padding-left: 30px; */
+     align-content: space-around;
+     /* align-content: space-between; */
+
+}
+nav{
+    color: #ffff;
+    padding-bottom: 8px;
+}
+.navbar{
+    display: flex;
+    /* align-items: center; */
+    float: right;
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.pages a:hover{
+    color: red;
+    
+    }
+img{
+    height: 300px;
+   
+}
+
+.ms-dhoni-img{
+    width: 517px;
+}
+.heros-work{
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.heros-name{
+    text-align: center;
+    font-size: x-large;
+}
+
+p{
+    padding: 15px 30px;
+    margin: 20px 25px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
